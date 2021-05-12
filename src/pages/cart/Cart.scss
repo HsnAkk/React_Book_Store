@@ -1,0 +1,130 @@
+.cart {
+    width: 85%;
+    margin: 30px auto;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    
+    h2 {
+        text-align: center;
+        padding: 20px 0;
+        border-bottom: 1px solid #e5e5e5;
+
+        span {
+            color: palevioletred;
+        }
+    }
+    
+    &__details {
+        display: flex;
+        padding: 20px 0;
+
+        &--items {
+            width: 75%;
+            height:fit-content;
+            box-shadow: 0 0 5px #8a8686;
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+            
+            .heading {
+                width: 100%;
+                height: 50px;
+                font-weight: bold;
+                line-height: 50px;
+                padding: 0 20px;
+                display: flex;
+        
+                &__image {
+                    width: 10%;
+                }
+            
+                &__title {
+                    width: 40%;
+                }
+            
+                &__price {
+                    width: 15%;
+                }
+            
+                &__buttons {
+                    width: 30%;
+                }
+            
+                &__delete {
+                    width: 10%;
+                }
+            }
+        }
+
+        &--total {
+            width: 25%;
+            
+            .details {
+                width: 100%;
+                box-shadow: 0 0 5px #8a8686;
+                min-height: 50vh;
+                margin-bottom: 10px;
+                padding: 30px;
+                position: relative;
+
+                h3 {
+                    margin-bottom: 40px;
+                }
+                & > div {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 20px;
+
+                    p {
+                        font-weight: bold;
+                        font-size: 14px;
+                    }
+                }
+                .total {
+                    position: absolute;
+                    bottom: 10px;
+                    width: calc(100% - 60px);
+                    font-weight: bold;
+                    font-size: 18px;
+                    p {
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .checkout {
+                width: 100%;
+                box-shadow: 0 0 5px #8a8686;
+                padding: 10px;
+
+                button {
+                    width: 100%;
+                    height: 45px;
+                    background: palevioletred;
+                    text-align: center;
+                    line-height: 45px;
+                    color: white;
+                    font-weight: 500;
+                    border-radius: 3px;
+                    border: none;
+                    font-size: 17px;
+
+                    &:hover {
+                        color: palevioletred;
+                        background: white;
+                        border: 3px solid palevioletred;
+                        line-height: 39px;
+                        cursor: pointer;
+                    }
+                }  
+            } 
+        }
+    }
+
+    .emptyCart {
+        color: palevioletred;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+}

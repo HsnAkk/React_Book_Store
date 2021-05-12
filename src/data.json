@@ -1,0 +1,112 @@
+{
+    "books" : [
+        {
+            "id": 1,
+            "type": "classics",
+            "name": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "length": 336,
+            "price": 18.04,
+            "discount": 5,
+            "color": "green",
+            "image": "/images/mockingbird.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat animi laboriosam officiis sed, sit voluptate earum consequuntur doloribus suscipit a nam, quibusdam officia, ipsam fuga illum ipsum. Dicta doloremque ex quod optio sequi voluptatum pariatur placeat corporis accusantium libero quia dolor ullam reprehenderit quis a magnam amet obcaecati minus, praesentium, ut ducimus aspernatur, voluptatem et. Placeat ullam suscipit cum ut voluptatibus unde consectetur mollitia quia hic, reprehenderit corrupti dolorum sunt. Iure facere, laudantium voluptates blanditiis enim error"
+        },
+        {
+            "id": 2,
+            "type": "classics",
+            "name": "Little Women",
+            "author": "Louisa May Alcott",
+            "length": 528,
+            "price": 6.17,
+            "discount": 0, 
+            "color": "green",
+            "image": "/images/little.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat animi laboriosam officiis sed, sit voluptate earum consequuntur doloribus suscipit a nam, quibusdam officia, ipsam fuga illum ipsum. Dicta doloremque ex quod optio sequi voluptatum pariatur placeat corporis accusantium libero quia dolor ullam reprehenderit quis a magnam amet obcaecati minus, praesentium, ut ducimus aspernatur, voluptatem et. Placeat ullam suscipit cum ut voluptatibus unde consectetur mollitia quia hic, reprehenderit corrupti dolorum sunt. Iure facere, laudantium voluptates blanditiis enim error"
+        },
+        {
+            "id": 3,
+            "type": "classics",
+            "name": "Beloved",
+            "author": "Toni Morrison",
+            "length": 321,
+            "price": 20.99,
+            "discount": 5,
+            "color": "green",
+            "image": "/images/beloved.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat animi laboriosam officiis sed, sit voluptate earum consequuntur doloribus suscipit a nam, quibusdam officia, ipsam fuga illum ipsum. Dicta doloremque ex quod optio sequi voluptatum pariatur placeat corporis accusantium libero quia dolor ullam reprehenderit quis a magnam amet obcaecati minus, praesentium, ut ducimus aspernatur, voluptatem et. Placeat ullam suscipit cum ut voluptatibus unde consectetur mollitia quia hic, reprehenderit corrupti dolorum sunt. Iure facere, laudantium voluptates blanditiis enim error"
+        },
+        {
+            "id": 4,
+            "type": "comics",
+            "name": "Watchmen",
+            "author": "Alan Moore",
+            "length": 416,
+            "price": 10.84,
+            "discount": 0,
+            "color": "dodgerblue",
+            "image": "/images/watchmen.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat animi laboriosam officiis sed, sit voluptate earum consequuntur doloribus suscipit a nam, quibusdam officia, ipsam fuga illum ipsum. Dicta doloremque ex quod optio sequi voluptatum pariatur placeat corporis accusantium libero quia dolor ullam reprehenderit quis a magnam amet obcaecati minus, praesentium, ut ducimus aspernatur, voluptatem et. Placeat ullam suscipit cum ut voluptatibus unde consectetur mollitia quia hic, reprehenderit corrupti dolorum sunt. Iure facere, laudantium voluptates blanditiis enim error"
+        },
+        {
+            "id": 5,
+            "type": "comics",
+            "name": "The Walking Dead",
+            "author": "Robert Kirkman",
+            "length": 1088,
+            "price": 30.05,
+            "discount": 5,
+            "color": "dodgerblue",
+            "image": "/images/walkingdead.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat animi laboriosam officiis sed, sit voluptate earum consequuntur doloribus suscipit a nam, quibusdam officia, ipsam fuga illum ipsum. Dicta doloremque ex quod optio sequi voluptatum pariatur placeat corporis accusantium libero quia dolor ullam reprehenderit quis a magnam amet obcaecati minus, praesentium, ut ducimus aspernatur, voluptatem et. Placeat ullam suscipit cum ut voluptatibus unde consectetur mollitia quia hic, reprehenderit corrupti dolorum sunt. Iure facere, laudantium voluptates blanditiis enim error"
+        },
+        {
+            "id": 6,
+            "type": "mystery",
+            "name": "The Night Fire",
+            "author": "Michael Connelly",
+            "length": 416,
+            "price": 18.90,
+            "discount": 5,
+            "color": "orange",
+            "image": "/images/nightfire.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat animi laboriosam officiis sed, sit voluptate earum consequuntur doloribus suscipit a nam, quibusdam officia, ipsam fuga illum ipsum. Dicta doloremque ex quod optio sequi voluptatum pariatur placeat corporis accusantium libero quia dolor ullam reprehenderit quis a magnam amet obcaecati minus, praesentium, ut ducimus aspernatur, voluptatem et. Placeat ullam suscipit cum ut voluptatibus unde consectetur mollitia quia hic, reprehenderit corrupti dolorum sunt. Iure facere, laudantium voluptates blanditiis enim error"
+        },
+        {
+            "id": 7,
+            "type": "mystery",
+            "name": "Sherlock Holmes",
+           "author": "Sir Arthur Conan Doyle",
+            "length": 164,
+            "price": 6.41,
+            "discount": 0,
+            "color": "orange",
+            "image": "/images/holmes.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat animi laboriosam officiis sed, sit voluptate earum consequuntur doloribus suscipit a nam, quibusdam officia, ipsam fuga illum ipsum. Dicta doloremque ex quod optio sequi voluptatum pariatur placeat corporis accusantium libero quia dolor ullam reprehenderit quis a magnam amet obcaecati minus, praesentium, ut ducimus aspernatur, voluptatem et. Placeat ullam suscipit cum ut voluptatibus unde consectetur mollitia quia hic, reprehenderit corrupti dolorum sunt. Iure facere, laudantium voluptates blanditiis enim error"
+        },
+        {
+            "id": 8,
+            "type": "horror",
+            "name": "Carrie",
+            "author": "Stephen King",
+            "length": 304,
+            "price": 7.99,
+            "discount": 5,
+            "color": "red",
+            "image": "/images/carrie.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat animi laboriosam officiis sed, sit voluptate earum consequuntur doloribus suscipit a nam, quibusdam officia, ipsam fuga illum ipsum. Dicta doloremque ex quod optio sequi voluptatum pariatur placeat corporis accusantium libero quia dolor ullam reprehenderit quis a magnam amet obcaecati minus, praesentium, ut ducimus aspernatur, voluptatem et. Placeat ullam suscipit cum ut voluptatibus unde consectetur mollitia quia hic, reprehenderit corrupti dolorum sunt. Iure facere, laudantium voluptates blanditiis enim error"
+        },
+        {
+            "id": 9,
+            "type": "adventure",
+            "name": "Life of Pi",
+            "author": "Yann Martel",
+            "length": 326,
+            "price": 7.50,
+            "discount": 0,
+            "color": "purple",
+            "image": "/images/pi.jpg",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repellat animi laboriosam officiis sed, sit voluptate earum consequuntur doloribus suscipit a nam, quibusdam officia, ipsam fuga illum ipsum. Dicta doloremque ex quod optio sequi voluptatum pariatur placeat corporis accusantium libero quia dolor ullam reprehenderit quis a magnam amet obcaecati minus, praesentium, ut ducimus aspernatur, voluptatem et. Placeat ullam suscipit cum ut voluptatibus unde consectetur mollitia quia hic, reprehenderit corrupti dolorum sunt. Iure facere, laudantium voluptates blanditiis enim error"
+        }
+    ]
+}

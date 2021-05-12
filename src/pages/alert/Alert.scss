@@ -1,0 +1,51 @@
+.alert {
+    position: fixed; 
+    z-index: 200; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    min-height: 100vh; 
+    background-color: rgba(0,0,0,0.7); 
+    display: flex;
+    justify-content: center;
+
+
+    .content {
+        background-color: #fefefe;
+        width: 35%; 
+        min-height: 10vh;
+        position: absolute;
+        top: 0;
+        margin-top: 20px;
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+ 
+
+         
+        &__message {
+            color: palevioletred;
+        }
+        
+
+        &__close {
+
+            svg {
+                font-size: 20px;
+                transition: transform 1s;
+
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(1.2);
+                    color: palevioletred;
+                }
+            }
+                
+            
+        }
+
+        
+    }
+}
