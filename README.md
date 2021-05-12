@@ -2,7 +2,7 @@
 
 > This project is about book store e-commerce application with contextAPI
 
-> In order to see live version, just [click...!](https://react-book-store-teal.vercel.app/)
+> In order to see live version, just [click...!](https://react-book-store2.vercel.app/)
 
 ## Quick Start
 
